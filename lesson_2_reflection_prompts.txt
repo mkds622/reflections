@@ -5,16 +5,28 @@ This folder records all the meta data of the repository along with the various v
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+The staging area allows the user to choose which files to add to commit,and also what changes the user wants to have in a single commit.
+Allows user to decide and assign exactly what changes he wants to get accounted in the repository, which means more control over the change history of a project.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+How can you use the staging area to make sure you have one commit per logical change?
+
+Adding only files whose changes are to be recorded into the commit to the staging area,ensures that only those changes that are desired are added to commit.thus way staging area can be used ti make sure there is one commit for a logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When the programmer wants to add an experimental feature to the code or text, somthing that he isnt sure of adding to the actual text, he can create a branch. I he/she wants to add a new feature that is yet to be tested or implemented but not to be included in the main code, branches
+help.
 
 How do the diagrams help you visualize the branch structure?
+They help in understanding when a change was made and how the project has developed over time,adding new features, fixing bugs and improving the efficiency of the text,while keeping on experimenting without fear of crashing the working project.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+Merging two branches merges the changes in content that was performed in both branches, taking into consideration and with respect to the initial state of the repository,before the branches were made.
+We represent them in the diagram the way we do, because they represent the success of an experiment or accomplishment of adding a feature or fixing a bug in the code.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros
+automatic merging of git whenever there are no conflicts between code solves almost a large task that a programmer will have to do when he/she will merge a new funcltionality or experimental code to the previously existed code. Since it is automatic, it doesnt need supervision and does the task very efficiently.
+
+cons. 
+it may sometimes merge the program in a way that makes it behave in unexpected ways.
